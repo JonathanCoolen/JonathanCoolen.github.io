@@ -1,0 +1,80 @@
+body {
+    background: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* img{
+    height: 600px;
+    width: 600px;
+} */
+
+
+i{
+    color: rgb(255, 0, 0);
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: -5%;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(255, 0, 0);
+    
+}
+
+#headingGroup span {
+    color: rgb(255, 0, 0);
+}
+
+#headingGroup h1{
+    font-weight: 200;
+    font-size: 3rem;
+    color: rgb(2, 255, 2);
+    
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 525px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+
+.blurb h2 {
+    color: rgb(2, 255, 2);
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.blurb p {
+    color: #f458b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+/* .navbar.scrolled {
+    background: rgba(2, 255, 2);
+    transition: background 500ms;
+} */
+
+
+
+
+
+
+
